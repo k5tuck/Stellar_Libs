@@ -1,4 +1,5 @@
 # Stellar_Libs
+[![GitHub Stars](https://img.shields.io/github/stars/k5tuck/Stellar_Libs.svg)](https://github.com/k5tuck/Stellar_Libs/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/k5tuck/Stellar_Libs.svg)](https://github.com/k5tuck/Stellar_Libs/issues)
 
 This repo is a collection of libraries useful for STEM related applications.
 
@@ -38,4 +39,7 @@ This repo was created to build a collection of "in-house" libraries useful for t
 2. Move/Copy built library into your project
 3. Reference library in additional include directory
 
+<!-- ## License
+>You can check out the full license [Here](https://github.com/k5tuck/Stellar_Libs/blob/master/LICENSE.txt)
 
+This project is licensed under the terms of the **Apache 2.0** license. -->
