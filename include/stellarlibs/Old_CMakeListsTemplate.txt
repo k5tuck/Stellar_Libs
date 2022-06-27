@@ -1,0 +1,77 @@
+
+# ----------------- Math -----------------
+# Headers Files
+set(math_headers
+${CMAKE_CURRENT_SOURCE_DIR}/math/test.hpp
+)
+
+# Source Files
+set(math_source_files
+${CMAKE_CURRENT_SOURCE_DIR}/math/cpp_files/test.cpp
+
+)
+# ---------------- Math End ---------------
+
+# ----------------- Science -----------------
+# Headers Files
+set(science_headers
+${CMAKE_CURRENT_SOURCE_DIR}/science/
+
+)
+
+# Source Files
+set(science_source_files
+${CMAKE_CURRENT_SOURCE_DIR}/science/cpp_files/
+
+)
+# ---------------- Science End ---------------
+
+# ----------------- AI/ML -----------------
+# Headers Files
+set(ai_headers
+${CMAKE_CURRENT_SOURCE_DIR}/ai_ml/
+
+)
+
+# Source Files
+set(ai_source_files
+${CMAKE_CURRENT_SOURCE_DIR}/ai_ml/cpp_files/
+
+)
+# ---------------- AI/ML End ---------------
+
+# ----------------- Drones/Robotics -----------------
+# Headers Files
+set(robotics_headers
+${CMAKE_CURRENT_SOURCE_DIR}/robotics/
+
+)
+
+# Source Files
+set(robotics_source_files
+${CMAKE_CURRENT_SOURCE_DIR}/robotics/cpp_files/
+
+)
+# ---------------- Drones/Robotics End ---------------
+
+# ----------------- Telecommuncications -----------------
+# Headers Files
+set(telecom_headers
+${CMAKE_CURRENT_SOURCE_DIR}/telecom/
+
+)
+
+# Source Files
+set(telecom_source_files
+${CMAKE_CURRENT_SOURCE_DIR}/telecom/cpp_files/
+
+)
+# ---------------- Telecommunications End ---------------
+
+add_library (StellarLibrary STATIC "")
+
+set_target_properties(StellarLibrary PROPERTIES CXX_STANDARD 17)
+
+target_sources(StellarLibrary PRIVATE ${math_header} PRIVATE ${math_source_files})
+
+target_include_directories (StellarLibrary PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/**)
