@@ -3,16 +3,12 @@
 #on:
 #  push:
 #    branches:
-#      - master
 #      - main
 #  pull_request:
 #    branches:
-#      - master
 #      - main
 
 #env:
-#  CTEST_OUTPUT_ON_FAILURE: 1
-#  CPM_SOURCE_CACHE: ${{ github.workspace }}/cpm_modules
 
 #jobs:
 #  build:

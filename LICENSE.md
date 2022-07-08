@@ -1,4 +1,4 @@
-Released under MIT License
+Released under The MIT License (MIT)
 
 Copyright (c) 2022 Kevin Tucker
 
