@@ -1,5 +1,3 @@
-#pragma once 
-
 #include <iostream>
 #include "stellarlibs/classical/math/test.hpp"
 
